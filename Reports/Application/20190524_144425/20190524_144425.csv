@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Application,,,,2019-05-24 14:44:33,2019-05-24 14:44:44,11.032s,FAILED
+,,,,,,,
+Test Cases/Application/GetApplication,,,,2019-05-24 14:44:33,2019-05-24 14:44:41,8.480s,FAILED
+"getApplication = sendRequest(findTestObject(""Application/GetApplication""))",,,,2019-05-24 14:44:33,2019-05-24 14:44:37,3.856s,PASSED
+"verifyResponseStatusCode(getApplication, 200)",,,,2019-05-24 14:44:37,2019-05-24 14:44:37,0.021s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationId"", 1)",,,,2019-05-24 14:44:37,2019-05-24 14:44:37,0.082s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].systemInstanceId"", 11)",,,,2019-05-24 14:44:37,2019-05-24 14:44:37,0.049s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationName"", ""Test Application v1.0"")",,,,2019-05-24 14:44:37,2019-05-24 14:44:37,0.036s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].createTime"", ""2019-05-13 15:48:51.063"")",,,,2019-05-24 14:44:37,2019-05-24 14:44:37,0.049s,FAILED
+"verifyElementPropertyValue(getApplication, ""data[0].startDate"", ""2019-05-13"")",,,,2019-05-24 14:44:37,2019-05-24 14:44:37,0.052s,FAILED
+"verifyElementPropertyValue(getApplication, ""data[0].endDate"", ""2019-05-13"")",,,,2019-05-24 14:44:37,2019-05-24 14:44:38,0.065s,FAILED
+"verifyElementPropertyValue(getApplication, ""data[0].description"", ""Test Application Description"")",,,,2019-05-24 14:44:38,2019-05-24 14:44:38,0.046s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].note"", ""Test Application Description"")",,,,2019-05-24 14:44:38,2019-05-24 14:44:38,0.104s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].category"", 1)",,,,2019-05-24 14:44:38,2019-05-24 14:44:38,0.084s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].stage"", 1)",,,,2019-05-24 14:44:38,2019-05-24 14:44:38,0.024s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].efford"", ""1234"")",,,,2019-05-24 14:44:38,2019-05-24 14:44:38,0.037s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].origin"", ""I"")",,,,2019-05-24 14:44:38,2019-05-24 14:44:38,0.065s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].type"", ""N"")",,,,2019-05-24 14:44:38,2019-05-24 14:44:38,0.024s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].technologies"", ""C#"")",,,,2019-05-24 14:44:38,2019-05-24 14:44:38,0.050s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].team"", 1)",,,,2019-05-24 14:44:38,2019-05-24 14:44:38,0.028s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].priority"", 2)",,,,2019-05-24 14:44:38,2019-05-24 14:44:38,0.028s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].status"", 3)",,,,2019-05-24 14:44:38,2019-05-24 14:44:38,0.030s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].isDone"", false)",,,,2019-05-24 14:44:38,2019-05-24 14:44:38,0.020s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].active"", true)",,,,2019-05-24 14:44:38,2019-05-24 14:44:38,0.040s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.applicationCharacteristicId"", 1)",,,,2019-05-24 14:44:38,2019-05-24 14:44:38,0.066s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.applicationId"", 1)",,,,2019-05-24 14:44:38,2019-05-24 14:44:38,0.149s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.ecf.ecfid"", 3)",,,,2019-05-24 14:44:38,2019-05-24 14:44:39,0.245s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.ecf.applicationCharacteristicId"", 1)",,,,2019-05-24 14:44:39,2019-05-24 14:44:39,0.134s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.ecf.e1"", 3)",,,,2019-05-24 14:44:39,2019-05-24 14:44:39,0.135s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.ecf.e2"", 3)",,,,2019-05-24 14:44:39,2019-05-24 14:44:39,0.074s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.ecf.e3"", 2)",,,,2019-05-24 14:44:39,2019-05-24 14:44:39,0.106s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.ecf.e4"", 5)",,,,2019-05-24 14:44:39,2019-05-24 14:44:39,0.097s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.ecf.e5"", 2)",,,,2019-05-24 14:44:39,2019-05-24 14:44:39,0.192s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.ecf.e6"", 1)",,,,2019-05-24 14:44:39,2019-05-24 14:44:40,0.349s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.ecf.e7"", 0)",,,,2019-05-24 14:44:40,2019-05-24 14:44:40,0.075s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.ecf.e8"", 4)",,,,2019-05-24 14:44:40,2019-05-24 14:44:40,0.095s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.tcf.tcfid"", 1)",,,,2019-05-24 14:44:40,2019-05-24 14:44:40,0.082s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.tcf.t1"", 5)",,,,2019-05-24 14:44:40,2019-05-24 14:44:40,0.085s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.tcf.t2"", 5)",,,,2019-05-24 14:44:40,2019-05-24 14:44:40,0.068s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.tcf.t3"", 3)",,,,2019-05-24 14:44:40,2019-05-24 14:44:40,0.069s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.tcf.t4"", 2)",,,,2019-05-24 14:44:40,2019-05-24 14:44:40,0.061s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.tcf.t5"", 3)",,,,2019-05-24 14:44:40,2019-05-24 14:44:41,0.213s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.tcf.t6"", 1)",,,,2019-05-24 14:44:41,2019-05-24 14:44:41,0.143s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.tcf.t7"", 5)",,,,2019-05-24 14:44:41,2019-05-24 14:44:41,0.116s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.tcf.t8"", 2)",,,,2019-05-24 14:44:41,2019-05-24 14:44:41,0.107s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.tcf.t9"", 2)",,,,2019-05-24 14:44:41,2019-05-24 14:44:41,0.116s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.tcf.t10"", 3)",,,,2019-05-24 14:44:41,2019-05-24 14:44:41,0.089s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.tcf.t11"", 5)",,,,2019-05-24 14:44:41,2019-05-24 14:44:41,0.061s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.tcf.t12"", 1)",,,,2019-05-24 14:44:41,2019-05-24 14:44:41,0.073s,PASSED
+"verifyElementPropertyValue(getApplication, ""data[0].applicationCharacteristic.tcf.t13"", 1)",,,,2019-05-24 14:44:41,2019-05-24 14:44:41,0.071s,PASSED
+,,,,,,,
+Test Cases/Application/PostApplication,,,,2019-05-24 14:44:41,2019-05-24 14:44:43,1.974s,PASSED
+"insertApplication = sendRequest(findTestObject(""Application/PostApplication""))",,,,2019-05-24 14:44:42,2019-05-24 14:44:43,1.190s,PASSED
+"verifyResponseStatusCode(insertApplication, 200)",,,,2019-05-24 14:44:43,2019-05-24 14:44:43,0.000s,PASSED
+,,,,,,,
+Test Cases/Application/PutApplication,,,,2019-05-24 14:44:43,2019-05-24 14:44:43,0.172s,PASSED
+return null,,,,2019-05-24 14:44:43,2019-05-24 14:44:43,0.002s,PASSED

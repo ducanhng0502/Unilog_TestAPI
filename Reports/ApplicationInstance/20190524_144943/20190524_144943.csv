@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ApplicationInstance,,,,2019-05-24 14:49:49,2019-05-24 14:49:54,4.464s,FAILED
+,,,,,,,
+Test Cases/ApplicationInstance/GetApplicationInstance,,,,2019-05-24 14:49:49,2019-05-24 14:49:53,3.766s,FAILED
+"getApplicationInstance = sendRequest(findTestObject(""ApplicationInstance/GetApplicationInstance""))",,,,2019-05-24 14:49:50,2019-05-24 14:49:53,2.937s,PASSED
+"verifyResponseStatusCode(getApplicationInstance, 200)",,,,2019-05-24 14:49:53,2019-05-24 14:49:53,0.017s,PASSED
+"verifyElementPropertyValue(getApplicationInstance, ""[0].id"", 1)",,,,2019-05-24 14:49:53,2019-05-24 14:49:53,0.113s,PASSED
+"verifyElementPropertyValue(getApplicationInstance, ""[0].name"", ""DevOps"")",,,,2019-05-24 14:49:53,2019-05-24 14:49:53,0.032s,PASSED
+"verifyElementPropertyValue(getApplicationInstance, ""[0].appId"", ""1"")",,,,2019-05-24 14:49:53,2019-05-24 14:49:53,0.038s,PASSED
+"verifyElementPropertyValue(getApplicationInstance, ""[0].appCode"", ""DEVOPS1"")",,,,2019-05-24 14:49:53,2019-05-24 14:49:53,0.026s,PASSED
+"verifyElementPropertyValue(getApplicationInstance, ""[0].description"", ""DevOps System"")",,,,2019-05-24 14:49:53,2019-05-24 14:49:53,0.029s,PASSED
+"verifyElementPropertyValue(getApplicationInstance, ""[0].active"", true)",,,,2019-05-24 14:49:53,2019-05-24 14:49:53,0.038s,PASSED
+"verifyElementPropertyValue(getApplicationInstance, ""[0].lastUpdate"", ""2019-04-16 00:00:00.000"")",,,,2019-05-24 14:49:53,2019-05-24 14:49:53,0.063s,FAILED
+,,,,,,,
+Test Cases/ApplicationInstance/PostApplicationInstance,,,,2019-05-24 14:49:53,2019-05-24 14:49:54,0.338s,PASSED
+"insertApplicationInstance = sendRequest(findTestObject(""ApplicationInstance/PostApplicationInstance""))",,,,2019-05-24 14:49:53,2019-05-24 14:49:54,0.123s,PASSED
+"verifyResponseStatusCode(insertApplicationInstance, 200)",,,,2019-05-24 14:49:54,2019-05-24 14:49:54,0.001s,PASSED

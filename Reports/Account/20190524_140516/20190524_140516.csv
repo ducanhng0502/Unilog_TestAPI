@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Account,,,,2019-05-24 14:05:24,2019-05-24 14:05:33,8.907s,FAILED
+,,,,,,,
+Test Cases/Account/GetAccount,,,,2019-05-24 14:05:24,2019-05-24 14:05:31,6.792s,FAILED
+"getAccount = sendRequest(findTestObject(""Account/GetAccount""))",,,,2019-05-24 14:05:25,2019-05-24 14:05:29,4.672s,PASSED
+"verifyResponseStatusCode(getAccount, 200)",,,,2019-05-24 14:05:29,2019-05-24 14:05:29,0.063s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].id"", 3)",,,,2019-05-24 14:05:29,2019-05-24 14:05:30,0.061s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].idAspNetUser"", 3)",,,,2019-05-24 14:05:30,2019-05-24 14:05:30,0.043s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].email"", ""luandnh1998@gmail.com"")",,,,2019-05-24 14:05:30,2019-05-24 14:05:30,0.061s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].companyId"", 4)",,,,2019-05-24 14:05:30,2019-05-24 14:05:30,0.037s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].role"", 3)",,,,2019-05-24 14:05:30,2019-05-24 14:05:30,0.029s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].active"", true)",,,,2019-05-24 14:05:30,2019-05-24 14:05:30,0.033s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].manageProject[0].id"", 11)",,,,2019-05-24 14:05:30,2019-05-24 14:05:30,0.036s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].manageProject[0].createTime"", ""2019-05-05 00:00:00.000"")",,,,2019-05-24 14:05:30,2019-05-24 14:05:30,0.457s,FAILED
+"verifyElementPropertyValue(getAccount, ""data[1].manageProject[0].lastUpdate"", ""2019-05-23 14:20:50.323"")",,,,2019-05-24 14:05:30,2019-05-24 14:05:30,0.140s,FAILED
+"verifyElementPropertyValue(getAccount, ""data[1].manageProject[0].name"", ""System Monitoring"")",,,,2019-05-24 14:05:30,2019-05-24 14:05:30,0.089s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].manageProject[0].status"", 1)",,,,2019-05-24 14:05:30,2019-05-24 14:05:31,0.059s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].manageProject[0].description"", ""UniLog - Luan"")",,,,2019-05-24 14:05:31,2019-05-24 14:05:31,0.045s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].manageProject[0].serverId"", 1)",,,,2019-05-24 14:05:31,2019-05-24 14:05:31,0.045s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].manageProject[0].active"", true)",,,,2019-05-24 14:05:31,2019-05-24 14:05:31,0.082s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].manageProject[0].systemsId"", 14)",,,,2019-05-24 14:05:31,2019-05-24 14:05:31,0.030s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].manageProject[0].application[0].applicationId"", 1)",,,,2019-05-24 14:05:31,2019-05-24 14:05:31,0.021s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].manageProject[0].application[0].applicationName"", ""Test Application v1.0"")",,,,2019-05-24 14:05:31,2019-05-24 14:05:31,0.019s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].manageProject[0].application[0].createTime"", ""2019-05-13 15:48:51.063"")",,,,2019-05-24 14:05:31,2019-05-24 14:05:31,0.039s,FAILED
+"verifyElementPropertyValue(getAccount, ""data[1].manageProject[0].application[0].updateTime"", ""2019-05-21 16:32:14.940"")",,,,2019-05-24 14:05:31,2019-05-24 14:05:31,0.029s,FAILED
+"verifyElementPropertyValue(getAccount, ""data[1].manageProject[0].application[0].category"", 1)",,,,2019-05-24 14:05:31,2019-05-24 14:05:31,0.104s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].manageProject[0].application[0].status"", 3)",,,,2019-05-24 14:05:31,2019-05-24 14:05:31,0.032s,PASSED
+"verifyElementPropertyValue(getAccount, ""data[1].manageProject[0].server"", ""210.2.98.10"")",,,,2019-05-24 14:05:31,2019-05-24 14:05:31,0.024s,PASSED
+,,,,,,,
+Test Cases/Account/PutAccount,,,,2019-05-24 14:05:31,2019-05-24 14:05:31,0.345s,FAILED
+"updateAccount = sendRequest(findTestObject(""Account/PutAccount""))",,,,2019-05-24 14:05:31,2019-05-24 14:05:31,0.122s,PASSED
+"verifyResponseStatusCode(updateAccount, 200)",,,,2019-05-24 14:05:31,2019-05-24 14:05:31,0.006s,FAILED
+,,,,,,,
+Test Cases/Account/PatchAccount,,,,2019-05-24 14:05:31,2019-05-24 14:05:32,0.503s,FAILED
+"updateActive = sendRequest(findTestObject(""Account/PatchAccount""))",,,,2019-05-24 14:05:32,2019-05-24 14:05:32,0.302s,PASSED
+"verifyResponseStatusCode(updateActive, 200)",,,,2019-05-24 14:05:32,2019-05-24 14:05:32,0.004s,FAILED
+,,,,,,,
+Test Cases/Account/DeleteAccount,,,,2019-05-24 14:05:32,2019-05-24 14:05:33,0.552s,FAILED
+"deleteAccount = sendRequest(findTestObject(""Account/DeleteAccount""))",,,,2019-05-24 14:05:32,2019-05-24 14:05:33,0.332s,PASSED
+"verifyResponseStatusCode(deleteAccount, 200)",,,,2019-05-24 14:05:33,2019-05-24 14:05:33,0.002s,FAILED

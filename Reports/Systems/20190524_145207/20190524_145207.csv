@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Systems,,,,2019-05-24 14:52:14,2019-05-24 14:52:21,6.593s,FAILED
+,,,,,,,
+Test Cases/Systems/GetSystems,,,,2019-05-24 14:52:14,2019-05-24 14:52:19,4.878s,FAILED
+"getSystems = sendRequest(findTestObject(""Systems/GetSystems""))",,,,2019-05-24 14:52:15,2019-05-24 14:52:17,2.635s,PASSED
+"verifyResponseStatusCode(getSystems, 200)",,,,2019-05-24 14:52:17,2019-05-24 14:52:17,0.043s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].id"", 2)",,,,2019-05-24 14:52:17,2019-05-24 14:52:17,0.083s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].name"", ""Unicode System"")",,,,2019-05-24 14:52:17,2019-05-24 14:52:18,0.048s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].description"", ""Uni System"")",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.040s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].companyId"", 4)",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.038s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].active"", true)",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.045s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].id"", 12)",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.047s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].createTime"", ""2019-05-05 00:00:00.000"")",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.048s,FAILED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].lastUpdate"", ""2019-05-23 14:20:50.323"")",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.040s,FAILED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].name"", ""Promotion"")",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.045s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].status"", 1)",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.037s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].description"", ""Promotion Dev"")",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.029s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].serverId"", 1)",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.037s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].active"", true)",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.049s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].systemsId"", 2)",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.042s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].applicationId"", 1008)",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.037s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].systemInstanceId"", 12)",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.026s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].applicationName"", ""string v2"")",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.027s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].createTime"", ""2019-05-22 16:22:18.177"")",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.043s,FAILED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].updateTime"", ""2019-05-22 16:22:18.177"")",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.057s,FAILED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].startDate"", ""2019-05-22"")",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.034s,FAILED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].endDate"", ""2019-05-22"")",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.031s,FAILED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].description"", ""string"")",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.037s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].note"", ""string"")",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.031s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].category"", 1)",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.035s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].stage"", 2)",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.032s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].efford"", 3)",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.029s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].origin"", ""U"")",,,,2019-05-24 14:52:18,2019-05-24 14:52:18,0.028s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].type"", ""N"")",,,,2019-05-24 14:52:18,2019-05-24 14:52:19,0.026s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].technologies"", ""string"")",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.025s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].team"", ""1"")",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.028s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].priority"", ""2"")",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.026s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].status"", 3)",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.043s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].link"", ""string"")",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.021s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].linkMonitor"", ""string"")",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.031s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].sourceCodeUrl"", ""string"")",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.050s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].isDone"", false)",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.030s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].active"", true)",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.044s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].applicationCharacteristic.applicationCharacteristicId"", 1004)",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.028s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].applicationCharacteristic.applicationId"", 1008)",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.031s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].applicationCharacteristic.active"", true)",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.036s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].applicationCharacteristic.ecf.ecfid"", 1005)",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.072s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].applicationCharacteristic.ecf.applicationCharacteristicId"", 1004)",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.027s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].applicationCharacteristic.tcf.tcfid"", 1003)",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.075s,PASSED
+"verifyElementPropertyValue(getSystems, ""data[0].systemInstance[0].application[0].applicationCharacteristic.tcf.applicationCharacteristicId"", 1004)",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.036s,PASSED
+,,,,,,,
+Test Cases/Systems/PostSystems,,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.346s,PASSED
+"insertSystems = sendRequest(findTestObject(""Systems/PostSystems""))",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.103s,PASSED
+"verifyResponseStatusCode(insertSystems, 200)",,,,2019-05-24 14:52:19,2019-05-24 14:52:19,0.003s,PASSED
+,,,,,,,
+Test Cases/Systems/PatchActive,,,,2019-05-24 14:52:19,2019-05-24 14:52:20,0.277s,PASSED
+"updateActive = sendRequest(findTestObject(""Systems/PatchActive""))",,,,2019-05-24 14:52:20,2019-05-24 14:52:20,0.111s,PASSED
+"verifyResponseStatusCode(updateActive, 200)",,,,2019-05-24 14:52:20,2019-05-24 14:52:20,0.000s,PASSED
+,,,,,,,
+Test Cases/Systems/DeleteSystems,,,,2019-05-24 14:52:20,2019-05-24 14:52:20,0.645s,FAILED
+"deleteSystems = sendRequest(findTestObject(""Systems/DeleteSystems""))",,,,2019-05-24 14:52:20,2019-05-24 14:52:20,0.190s,PASSED
+"verifyResponseStatusCode(deleteSystems, 200)",,,,2019-05-24 14:52:20,2019-05-24 14:52:20,0.007s,FAILED
